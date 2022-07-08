@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login1.css">
+</head>
+<body>
+    <header>
+        <span class="name">ani<span class="here">care.</span></span>
+        <span class="categories">
+            <a href="homepage.html" class="link">Home</a>
+            <a href="blog.html" class="link">Blog</a>
+            <a href="homepage.html" class="link">About</a>
+            <a href="login1.html" class="link">Donate</a>
+            <a href="homepage.html" class="link">Contact</a>
+        </span>
+    </header>
+    <div class="container">
+        <form id="form" action="/">
+            <h1>DONATION</h1>
+            <div class="input-control ">
+                <label for="email">Email</label>
+                <input placeholder="Type your email adress" id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="phone">Phone</label>
+                <input placeholder="Type your phone number" id="phone"name="phone" type="phone">
+                <div class="error"></div>
+            </div>
+            <div class="input-control">
+                <label for="amount">Amount</label>
+                <input placeholder="USD $" id="amount"name="amount" type="number">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Continue</button>
+        </form>
+    </div>
+    <script src="login1.js"></script>
+</body>
+</html>
